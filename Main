@@ -1,0 +1,10 @@
+import random
+
+food_list = []
+food_list.append('mexican')
+food_list.append('italian')
+food_list.append('pizza')
+food_list.append('peruvian')
+food_list.append('burgers')
+food_list.append('chinese')
+print(random.choices(food_list, k=1))
